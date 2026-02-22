@@ -624,7 +624,192 @@ body {
         padding: 6px 10px;
     }
 }
+@media screen and (max-width: 1024px) {
 
+    .first-content {
+
+        gap: 40px;
+
+    }
+
+    .first-text h2 {
+
+        font-size: 1.6rem;
+
+    }
+
+    .s-title {
+
+        font-size: 1.6rem;
+
+    }
+
+}
+ 
+@media screen and (max-width: 944px) {
+
+    .first-heading {
+
+        padding: 100px 30px 30px 30px;
+
+    }
+
+}
+ 
+@media screen and (max-width: 850px) {
+
+    .second-section {
+
+        flex-direction: column;
+
+    }
+
+    .s-main-content,
+
+    .s-sidebar {
+
+        width: 100%;
+
+    }
+
+    .s-sidebar {
+
+        margin-top: 20px;
+
+    }
+
+    .first-content {
+
+        flex-direction: column;
+
+        text-align: center;
+
+        gap: 20px;
+
+    }
+
+}
+ 
+@media screen and (max-width: 768px) {
+
+    .first-heading {
+
+        padding: 90px 20px 30px 20px;
+
+    }
+
+    .first-text h2 {
+
+        font-size: 1.5rem;
+
+        padding-bottom: 20px;
+
+    }
+
+    .second-section {
+
+        padding: 0 20px;
+
+        margin: 40px auto;
+
+    }
+
+    .s-main-content {
+
+        padding: 20px;
+
+    }
+
+    .s-title {
+
+        font-size: 1.5rem;
+
+    }
+
+}
+ 
+@media screen and (max-width: 600px) {
+
+    .first-text h2 {
+
+        font-size: 1.3rem;
+
+    }
+
+    .s-catagory {
+
+        font-size: 0.6rem;
+
+    }
+
+}
+ 
+@media screen and (max-width: 480px) {
+
+    .first-heading {
+
+        padding: 80px 15px 20px 15px;
+
+    }
+
+    .first-text h2 {
+
+        font-size: 1.2rem;
+
+    }
+
+    .first-text p {
+
+        font-size: 0.9rem;
+
+    }
+
+    .second-section {
+
+        padding: 0 15px;
+
+        margin: 30px auto;
+
+    }
+
+    .s-main-content {
+
+        padding: 15px;
+
+    }
+
+    .s-title {
+
+        font-size: 1.3rem;
+
+    }
+
+    .s-p {
+
+        font-size: 0.95rem;
+
+    }
+
+}
+ 
+@media screen and (max-width: 363px) {
+
+    .first-text h2 {
+
+        font-size: 1rem;
+
+    }
+
+    .s-first-content {
+
+        height: auto;
+
+        min-height: 80px;
+
+    }
+
+}
+ 
 @media only screen and (max-width: 944px) {
     .nav-menu {
         flex-direction: column;
@@ -770,3 +955,4 @@ body {
     background-color: lightgray;
     transform: translateY(3px);
  }
+
