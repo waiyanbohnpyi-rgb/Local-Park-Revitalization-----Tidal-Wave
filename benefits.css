@@ -747,6 +747,14 @@ body {
     border-width: 4px;
   }
 }
+@media only screen and (max-width:450px) {
+     .image-overlay{
+    padding:  5px;
+  }
+  .image-overlay p{
+    font-size: 0.8rem;
+  }
+}
 
 @media only screen and (max-width: 363px) {
   .logo-box h1 {
@@ -822,4 +830,5 @@ body {
     padding: 8px 12px;
   }
 }
+
 
