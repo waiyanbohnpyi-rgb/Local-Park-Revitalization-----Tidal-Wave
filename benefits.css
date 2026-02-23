@@ -774,6 +774,12 @@ body {
     font-size: 0.8rem;
     padding-top: 50px;
   }
+  .image-overlay{
+    padding:  5px;
+  }
+  .image-overlay p{
+    font-size: 0.8rem;
+  }
 }
 
 @media (max-width: 385px) {
@@ -816,3 +822,4 @@ body {
     padding: 8px 12px;
   }
 }
+
