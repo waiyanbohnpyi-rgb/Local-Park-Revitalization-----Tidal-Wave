@@ -231,8 +231,7 @@ body {
 }
  
 .column {
-    width: 100%;
-    min-width: 1200px;
+    width: 1200px;
 }
  
 .card {
@@ -697,3 +696,4 @@ body {
         padding: 6px 10px;
     }
 }
+
