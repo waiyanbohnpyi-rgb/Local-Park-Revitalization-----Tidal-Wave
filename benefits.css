@@ -165,7 +165,7 @@ body {
 .text-hero {
   border: 7px solid white;
   padding: 3rem 2rem;
-  font-size: 2rem;
+  font-size: 1.5rem;
   line-height: 1.5;
   font-weight: 500;
 }
@@ -805,4 +805,5 @@ body {
     padding: 8px 12px;
   }
 }
+
 
