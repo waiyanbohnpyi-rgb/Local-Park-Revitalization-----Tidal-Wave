@@ -189,7 +189,7 @@ body {
 .hero-section{ 
     background: linear-gradient(rgba(26, 95, 35, 0.85), 
     rgba(26, 95, 35, 0.75)), 
-    url('../LcalSunnyPark6.jpg'); 
+    url('LcalSunnyPark6.jpg'); 
     background-size: cover; 
     background-position: center; 
     padding: 150px 40px 100px; 
@@ -257,7 +257,7 @@ body {
     left: 0;
     width: 100%;
     height: 100%;
-    background-image: url('../LocalSunnyParKDark.jpg');
+    background-image: url('LocalSunnyParKDark.jpg');
     background-size: cover;
     background-position: center;
     border-radius: 8px;
@@ -845,4 +845,5 @@ body {
         font-size: 0.85rem;
         padding: 6px 10px;
     }
+
 }
