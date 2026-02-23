@@ -317,11 +317,13 @@ body {
 }
  
 .card p {
-    text-align:center;
     color: rgb(102, 102, 102);
     font-size: 0.9rem;
     line-height: 1.6;
     margin-bottom: 20px;
+}
+.card p{
+    text-align:center;
 }
  
 .text-c{
@@ -846,5 +848,6 @@ body {
     }
 
 }
+
 
 
