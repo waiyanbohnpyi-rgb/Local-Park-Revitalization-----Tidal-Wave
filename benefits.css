@@ -543,17 +543,41 @@ body {
         font-size: 18px;
     }
     .column-view {
-        padding: 60px 20px;
+        padding: 60px 25px;
+    }
+    .row {
+        gap: 25px;
+    }
+    .column {
+        width: 800px;
+    }
+    .card {
+        padding: 20px;
+    }
+    .card h3 {
+        font-size: 1.4rem;
+    }
+    .card p {
+        font-size: 1rem;
+    }
+}
+ @media screen and (max-width: 576px) {
+    .column-view {
+        padding: 40px 20px;
     }
     .row {
         gap: 20px;
     }
-    .column {
-        min-width: 280px;
-        max-width: 100%;
+    .card {
+        padding: 18px;
+    }
+    .card h3 {
+        font-size: 1.3rem;
+    }
+    .card p {
+        font-size: 0.95rem;
     }
 }
- 
 @media only screen and (max-width: 480px) {
     .hero-content {
         height: 400px;
@@ -725,6 +749,7 @@ body {
         padding: 6px 10px;
     }
 }
+
 
 
 
