@@ -145,7 +145,7 @@ body {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  height: 80vh;
+  height: 864px;
   min-height: 500px;
   max-height: 700px;
   display: flex;
@@ -165,7 +165,7 @@ body {
 .text-hero {
   border: 7px solid white;
   padding: 3rem 2rem;
-  font-size: 1.5rem;
+  font-size: 1.2rem;
   line-height: 1.5;
   font-weight: 500;
 }
@@ -805,5 +805,6 @@ body {
     padding: 8px 12px;
   }
 }
+
 
 
