@@ -452,6 +452,19 @@ body {
 .footer nav a {
     background-color: rgb(227, 227, 227);
 }
+@media only screen and (max-width: 1200px) {
+    .card h3 {
+   
+    font-size: 1.3rem;
+   
+}
+ 
+.card p {
+   
+    font-size: 0.9rem;
+   
+}
+}
 @media only screen and (max-width: 944px) {
     .nav-menu {
         flex-direction: column;
@@ -465,84 +478,104 @@ body {
         padding: 20px;
         min-width: 250px;
     }
+ 
     input[type="checkbox"]:checked ~ .nav-menu {
         display: flex;
     }
+ 
     .toggler {
         display: block;
         position: absolute;
         top: 20px;
         right: 40px;
     }
-}
- 
-@media only screen and (max-width: 850px) {
+    .hero-content{
+        height: 500px;
+    }
+    .hero-text{
+        padding: 100px 40px;
+    }
+    .text-hero{
+        padding: 100px 40px;
+    }
     .second-content {
         flex-direction: column;
-        padding: 0 20px;
-        gap: 30px;
+        gap: 40px;
+        padding: 0 20px 20px 20px;
     }
+   
     .s-images, .s-text {
         width: 100%;
     }
-    .s-text h2 {
-        font-size: 1.9rem;
-        text-align: center;
+   
+    .s-images {
+        margin-top: 0;
     }
-    .hero-content {
-        height: 600px;
+    .column-view {
+        padding: 60px 20px;
     }
-    .hero-text {
-        padding: 20px;
+    .row{
+        gap: 30px;
     }
-    .text-hero {
-        padding: 30px 15px;
-    }
+   
 }
  
 @media only screen and (max-width: 768px) {
     .nav-bar {
         padding: 15px 20px;
     }
-    .toggler {
-        right: 20px;
+      .hero-content{
+        height: 400px;
     }
-    .hero-content {
-        height: 500px;
-        margin-bottom: 40px;
+    .hero-text{
+        padding: 120px 20px;
     }
-    .hero-text {
-        font-size: 18px;
+    .text-hero{
+        padding: 60px 10px;
+        border-width: 4px;
+    }
+    .hero-text h2{
+        font-size: 1.8rem;
+    }
+    .hero-text p{
+        font-size: 1rem;
+    }
+    .second-content {
+        flex-direction: column;
+        gap: 30px;
+        padding: 0 20px 20px 20px;
+    }
+   
+    .s-images, .s-text {
+        width: 100%;
+    }
+   
+    .s-images {
+        margin-top: 0;
     }
     .column-view {
         padding: 60px 20px;
     }
-    .row {
-        gap: 20px;
-    }
-    .column {
-        min-width: 280px;
-        max-width: 100%;
-    }
-}
- 
-@media only screen and (max-width: 480px) {
-    .hero-content {
-        height: 400px;
-    }
-    .text-hero {
-        border-width: 4px;
-        padding: 15px 10px;
-        font-size: 0.95rem;
+    .row{
+        gap: 30px;
     }
     .s-text h2 {
-        font-size: 1.6rem;
+        font-size: 1.5rem;
     }
+   
+    .s-text p {
+        font-size: 0.95rem;
+    }
+   
+    .image-overlay p {
+        font-size: 0.9rem;
+    }
+   
     .card h3 {
-        font-size: 1.4rem;
+        font-size: 1.2rem;
     }
     .card p {
-        font-size: 1rem;
+        font-size: 0.85rem;
     }
 }
  
@@ -550,10 +583,12 @@ body {
     .logo-box h1 {
         font-size: 1.2rem;
     }
+   
     .logo-box img {
         width: 40px;
         height: 40px;
     }
+ 
     input[type="checkbox"]:checked ~ .nav-menu {
         display: block;
         position: absolute;
@@ -563,10 +598,62 @@ body {
         box-shadow: 0 10px 30px rgba(0,0,0,0.1);
         border-radius: 10px;
         width: 90%;
-        left: 5%;
-        right: auto;
+        left: 10px;
     }
+    .hero-content{
+        height: 350px;
+    }
+    .hero-text{
+        padding: 70px 20px;
+        }
+    .text-hero{
+        padding: 30px 15px  ;
+        margin: 30px 0 20px 0;
+        border-width: 2px;
+        margin: 0 auto;
+        max-width: 90%;
+    }
+   
+    .second-content{
+        gap: 30px;
+        padding: 0 10px;
+        flex-direction: column;
+        max-width: 1500px;
+       
+    }
+    .s-text h2 {
+        font-size: 1.3rem;
+    }
+    .s-images {
+        width: 100%;
+        margin-top: 0px;
+    }
+    .s-text {
+        width: 100%;
+    }
+    .s-text p {
+        font-size: 0.9rem;
+    }
+   
+    .image-overlay {
+        padding: 15px;
+        width: 90%;
+    }
+   
+    .image-overlay p {
+        font-size: 0.7rem;
+    }
+    .s-images img{
+        width: 100%;
+    }
+   
+    .column{
+        max-width: 200px;
+    }
+ 
+ 
 }
+ 
 @media (max-width: 768px){
     .footer-container{
         flex-direction: column;
@@ -697,4 +784,5 @@ body {
         padding: 6px 10px;
     }
 }
+
 
