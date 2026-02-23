@@ -490,6 +490,18 @@ body {
         top: 20px;
         right: 40px;
     }
+    .column {
+        width: 1000px;
+    }
+    .row {
+        gap: 30px;
+    }
+    .card h3 {
+        font-size: 1.5rem;
+    }
+    .card p {
+        font-size: 1.1rem;
+    }
 }
  
 @media only screen and (max-width: 850px) {
@@ -713,5 +725,6 @@ body {
         padding: 6px 10px;
     }
 }
+
 
 
