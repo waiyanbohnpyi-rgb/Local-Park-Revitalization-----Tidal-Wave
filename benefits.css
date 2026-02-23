@@ -173,7 +173,7 @@ body {
 .s-images{
     width: 45%;
     position: relative;
-    margin-top: 170px;
+    margin-top: 90px;
 }
 .s-text{
     width: 55%;
@@ -791,6 +791,7 @@ body {
         padding: 6px 10px;
     }
 }
+
 
 
 
