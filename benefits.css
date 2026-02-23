@@ -151,7 +151,7 @@ body {
    .hero-text{
     text-align: center;
     font-size: 20px;
-    padding: 290px ;
+    padding: 290px 20px ;
     color: white;
 }
 .text-hero{
@@ -794,6 +794,7 @@ body {
         padding: 6px 10px;
     }
 }
+
 
 
 
