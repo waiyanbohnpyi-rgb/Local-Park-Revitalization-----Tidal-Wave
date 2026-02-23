@@ -157,6 +157,8 @@ body {
 .text-hero{
     border: 7px solid white;
     padding: 50px;
+    padding-right: 0px;
+    padding-left: 0px;
 }
 .second-content{
     display: flex;
@@ -801,6 +803,7 @@ body {
         padding: 6px 10px;
     }
 }
+
 
 
 
