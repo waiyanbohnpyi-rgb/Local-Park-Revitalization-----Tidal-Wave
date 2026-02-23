@@ -17,7 +17,9 @@ body {
     top: 0;
     z-index: 1000;
 }
- 
+ a{
+    text-decoration: none;
+}
 .nav-bar {
     display: flex;
     justify-content: space-between;
@@ -848,6 +850,7 @@ body {
     }
 
 }
+
 
 
 
