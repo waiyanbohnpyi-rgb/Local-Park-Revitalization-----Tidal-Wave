@@ -317,7 +317,7 @@ body {
 }
  
 .card p {
-    text-allign:center;
+    text-align:center;
     color: rgb(102, 102, 102);
     font-size: 0.9rem;
     line-height: 1.6;
@@ -846,4 +846,5 @@ body {
     }
 
 }
+
 
