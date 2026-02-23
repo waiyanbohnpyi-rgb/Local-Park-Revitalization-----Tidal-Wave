@@ -478,6 +478,40 @@ body {
 
 }
 
+@media screen and (max-width: 1200px) {
+
+    .column {
+
+        width: 800px;
+
+    }
+
+    .column {
+
+        width: 1000px;
+
+    }
+
+    .row {
+
+        gap: 30px;
+
+    }
+
+    .card h3 {
+
+        font-size: 1.3rem;
+
+    }
+
+    .card p {
+
+        font-size: 0.9rem;
+
+    }
+
+}
+
 @media screen and (max-width: 992px) {
 
     .nav-bar {
@@ -528,7 +562,7 @@ body {
 
     .column {
 
-        min-width: 100%;
+        width: 1000px;
 
     }
 
@@ -720,7 +754,7 @@ body {
 
     .column {
 
-        min-width: 100%;
+        width: 800px;
 
     }
 
