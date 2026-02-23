@@ -151,14 +151,12 @@ body {
 .hero-text{
     text-align: center;
     font-size: 20px;
-    padding: 270px 
-    padding-right: 0px;
-    padding-left: 0px;
+    padding: 290px 
     color: white;
 }
 .text-hero{
     border: 7px solid white;
-    padding: 50px;;
+    padding: 50px;
 }
 .second-content{
     display: flex;
@@ -796,6 +794,7 @@ body {
         padding: 6px 10px;
     }
 }
+
 
 
 
