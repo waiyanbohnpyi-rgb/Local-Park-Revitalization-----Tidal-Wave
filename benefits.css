@@ -173,8 +173,18 @@ body {
 .s-images{
     width: 45%;
     position: relative;
-    margin-top: 90px;
 }
+ .hero-content {
+        height: 500px;
+    }
+    .hero-text {
+        padding: 180px 20px;
+        font-size: 16px;
+    }
+    .text-hero {
+        padding: 25px 15px;
+        border-width: 3px;
+    }
 .s-text{
     width: 55%;
 }
@@ -791,6 +801,7 @@ body {
         padding: 6px 10px;
     }
 }
+
 
 
 
