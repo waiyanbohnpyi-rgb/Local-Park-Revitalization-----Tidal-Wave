@@ -502,6 +502,13 @@ body {
     .card p {
         font-size: 1.1rem;
     }
+     .hero-text {
+        padding: 290px 50px;
+    }
+    .text-hero {
+        padding: 40px;
+        border-width: 5px;
+    }
 }
  
 @media only screen and (max-width: 850px) {
@@ -560,6 +567,30 @@ body {
     .card p {
         font-size: 1rem;
     }
+    .hero-content {
+
+        height: 600px;
+
+        margin-bottom: 40px;
+
+    }
+
+    .hero-text {
+
+        padding: 220px 30px;
+
+        font-size: 18px;
+
+    }
+
+    .text-hero {
+
+        padding: 30px;
+
+        border-width: 4px;
+
+    }
+ 
 }
  @media screen and (max-width: 576px) {
     .column-view {
@@ -576,6 +607,17 @@ body {
     }
     .card p {
         font-size: 0.95rem;
+    }
+      .hero-content {
+        height: 500px;
+    }
+    .hero-text {
+        padding: 180px 20px;
+        font-size: 16px;
+    }
+    .text-hero {
+        padding: 25px 15px;
+        border-width: 3px;
     }
 }
 @media only screen and (max-width: 480px) {
@@ -749,6 +791,7 @@ body {
         padding: 6px 10px;
     }
 }
+
 
 
 
