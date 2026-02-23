@@ -294,9 +294,6 @@ body {
     display: flex;
     flex-direction: column;
 }
-.card p{
-    text-allign: center;
-    font-size: 12px;
 .card:hover {
     transform: translateY(-8px);
     box-shadow: 0 15px 30px rgba(26, 95, 35, 0.15);
@@ -320,6 +317,7 @@ body {
 }
  
 .card p {
+    text-allign:center;
     color: rgb(102, 102, 102);
     font-size: 0.9rem;
     line-height: 1.6;
@@ -848,3 +846,4 @@ body {
     }
 
 }
+
