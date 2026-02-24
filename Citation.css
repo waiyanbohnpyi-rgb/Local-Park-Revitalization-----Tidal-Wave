@@ -246,7 +246,6 @@ body {
     padding: 30px 20px;
     border-top: 1px solid #e6efe8;
     color: #233;
-    margin-top: 200px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     position: relative;
     overflow: hidden;
@@ -899,4 +898,5 @@ body {
     color: #1a5f23;
     background-color: lightgray;
     transform: translateY(3px);
+
 }
