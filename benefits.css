@@ -502,6 +502,9 @@ body {
     justify-content: center;
     gap: 25px;
   }
+  .s-text{
+    padding-left: 30px;
+  }
   
   .footer-logo, .footer-nav, .footer-contact {
     width: 30%;
@@ -830,5 +833,6 @@ body {
     padding: 8px 12px;
   }
 }
+
 
 
