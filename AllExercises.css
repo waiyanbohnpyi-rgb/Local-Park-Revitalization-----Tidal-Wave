@@ -227,7 +227,7 @@ body {
 .s-list li {
     padding: 1rem 0;
     border-bottom: 1px solid #c5e6cf;
-    font-size: 1.02rem;
+    font-size: 1rem;
     display: flex;
     gap: 0.5rem;
 }
@@ -235,7 +235,7 @@ body {
 .s-list li b {
     color: #146b2e;
     font-weight: 650;
-    min-width: 130px;
+    min-width: 50%;
 }
  
 .s-sidebar-image {
@@ -1192,4 +1192,5 @@ footer {
         font-size: 0.85rem;
         padding: 6px 10px;
     }
+
 }
